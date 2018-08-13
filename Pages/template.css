@@ -16064,67 +16064,76 @@ Custom css - 03.08.18
 
 /* ---- HEADERS-START ---- */
 
-.headers_sha{
+.headers-image{
     height: 600px;
     background-color: #fff;
     background-repeat: no-repeat;
     text-align: left;
 }
-.headers_sha h1{
+.headers-image h1{
     text-align: left;
 }
 @media only screen and (max-width: 959px) {
-.headers_sha{
+.headers-image{
     height: 400px;
     text-align: center;
     }
-.headers_sha h1{
+.headers-image h1{
     text-align: center;
 }
 }
-.desportivas_sha_bg{
+.desportivas_bg{
     background-position: center;
     background-size: auto 100%;
     background-image: url(pictures/header-desportivas.jpeg);
 }
 @media only screen and (max-width: 959px) {
-    .desportivas_sha_bg{
+    .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
     }    
 }
 
 /* ----- HEADERS-END ----- */
 
-/* ---- HEADERS-TITLES-START ---- */
+/* ---- TITLES-START ---- */
 
-.headers_subtitle_sha{
+.headers_subtitle{
     font-size:50px;
 }
-.headers_title_sha{
+.headers_title_red{
+    padding: 10px 0px 20px 0px;
     font-size:90px;
     line-height: 70px;
+    background: linear-gradient(110deg, #DB0723, #9F1238);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.headers_title_sha_desportivas{
-    padding-top: 200px;
+.vertical-center-title{
+    padding-top: 190px;
+}
+.featured-title{
+    font-size:40px;
+    line-height: 35px;
 }
 @media only screen and (max-width: 959px) {
-.headers_subtitle_sha{
+.headers_subtitle{
     font-size:20px;
 }
-.headers_title_sha{
+.vertical-center-title{
+    padding-top: 15px;
+}
+.headers_title_red{
     font-size:50px;
     line-height: 45px;
-} 
-.headers_title_sha_desportivas{
-    padding-top: 15px;
-}   
+    font-weight: 500;
 }
+}    
 
-/* ----- HEADERS-TITLES-END ----- */
+/* ----- TITLES-END ----- */
 
 /* --- GRADIENTS-START --- */
 
-.red_gradient_sha_bg{
+.red_gradient{
     background: linear-gradient(110deg, #DB0723, #9F1238);
 }
 
@@ -16132,27 +16141,80 @@ Custom css - 03.08.18
 
 /* --- SECTIONS-START --- */
 
-.sections-sha{
+.sections-boxes{
     padding:130px 0px 130px 0;
 }
 @media only screen and (max-width: 959px) {
-.sections-sha{
+.sections-boxes{
     text-align: center;
     padding:100px 0px 100px 0;
 }
 }
-.shamir-run-sha-bg{
-    
+.shamir-run-bg{
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-run.jpeg); 
 }
-.max-pad-sha{
+.shamir-golf-bg{
+    background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-golf.jpeg); 
+}
+.shamir-sky-bg{
+    background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-sky.jpeg); 
+}
+.shamir-tennis-bg{
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-tennis.jpeg); 
+}
+.max-pad{
     padding: 100px 0 100px 0;
 }
-.med-pad-sha{
+.med-pad{
     padding: 50px 0 50px 0;
 }
-.min-pad-sha{
+.min-pad{
     padding: 15px 0 15px 0;
 }
 
-
 /* ---- SECTIONS-END ---- */
+
+/* --- ELEMENTS-START --- */
+
+.cta{
+    color: #d20a11;
+    padding: 10px 20px 10px 20px;
+    font-size: 21px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #d20a11;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 700ms ease;
+}
+.cta:hover{
+    color:#fff;
+    background: #d20a11;
+}
+.lists ul{
+    margin-left: 17px;
+}
+.lists li{
+    list-style-type:none;
+    line-height: 22px;
+}
+.lists li:before{
+  content: "- ";
+}
+.red-font{
+    color:#d20a11;
+}
+
+/* ---- ELEMENTS-END ---- */
