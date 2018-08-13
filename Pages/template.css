@@ -16066,15 +16066,61 @@ Custom css - 03.08.18
 
 .headers_sha{
     height: 600px;
-    background-color: #f1f2f3;
-    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    text-align: left;
 }
-
+.headers_sha h1{
+    text-align: left;
+}
+@media only screen and (max-width: 959px) {
+.headers_sha{
+    height: 400px;
+    text-align: center;
+    }
+.headers_sha h1{
+    text-align: center;
+}
+}
 .desportivas_sha_bg{
-    
+    background-position: center;
+    background-size: auto 100%;
+    background-image: url(pictures/header-desportivas.jpeg);
+}
+@media only screen and (max-width: 959px) {
+    .desportivas_sha_bg{
+        background-image: url(pictures/header-desportivas-XS.jpeg);
+    }    
 }
 
 /* ----- HEADERS-END ----- */
+
+/* ---- HEADERS-TITLES-START ---- */
+
+.headers_subtitle_sha{
+    font-size:50px;
+}
+.headers_title_sha{
+    font-size:90px;
+    line-height: 70px;
+}
+.headers_title_sha_desportivas{
+    padding-top: 200px;
+}
+@media only screen and (max-width: 959px) {
+.headers_subtitle_sha{
+    font-size:20px;
+}
+.headers_title_sha{
+    font-size:50px;
+    line-height: 45px;
+} 
+.headers_title_sha_desportivas{
+    padding-top: 15px;
+}   
+}
+
+/* ----- HEADERS-TITLES-END ----- */
 
 /* --- GRADIENTS-START --- */
 
@@ -16087,7 +16133,13 @@ Custom css - 03.08.18
 /* --- SECTIONS-START --- */
 
 .sections-sha{
-    height: 300px;
+    padding:130px 0px 130px 0;
+}
+@media only screen and (max-width: 959px) {
+.sections-sha{
+    text-align: center;
+    padding:100px 0px 100px 0;
+}
 }
 .shamir-run-sha-bg{
     
@@ -16101,9 +16153,6 @@ Custom css - 03.08.18
 .min-pad-sha{
     padding: 15px 0 15px 0;
 }
-.middle-v-sections-sha{
-    display: table;
-    vertical-align: middle;
-}
+
 
 /* ---- SECTIONS-END ---- */
