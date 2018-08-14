@@ -16087,6 +16087,15 @@ Custom css - 03.08.18
     background-size: auto 100%;
     background-image: url(pictures/header-desportivas.jpeg);
 }
+.porqueshamir_bg{
+    background-position: 0px 0px 0px 10%;
+    background-size: auto 100%;
+    background-image: url(pictures/header-porqueshamir.jpeg);
+}
+.porqueshamir_bg_right{
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 50%);
+}
 @media only screen and (max-width: 959px) {
     .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
