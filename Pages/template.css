@@ -16088,18 +16088,29 @@ Custom css - 03.08.18
     background-image: url(pictures/header-desportivas.jpeg);
 }
 .porqueshamir_bg{
-    background-position: 0px 0px 0px 10%;
+    background-position: left;
     background-size: auto 100%;
     background-image: url(pictures/header-porqueshamir.jpeg);
 }
 .porqueshamir_bg_right{
     height: 100%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 50%);
+    background-image: url(pictures/shamir_logo_trans.png);
+    background-repeat: no-repeat;
+    background-position: 100px 250px;
+    background-size: 600px;
 }
+
 @media only screen and (max-width: 959px) {
     .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
-    }    
+    }
+    .porqueshamir_bg{
+        background-position: left bottom;
+        background-size: auto 63%;
+    }
+    .porqueshamir_bg_right{
+        background-image: none ;
+}
 }
 
 /* ----- HEADERS-END ----- */
@@ -16145,39 +16156,46 @@ Custom css - 03.08.18
 .red_gradient{
     background: linear-gradient(110deg, #DB0723, #9F1238);
 }
+.orange_gradient{
+    background: linear-gradient(70deg, #CE3362, #FFC477);
+}
 
 /* ---- GRADIENTS-END ---- */
 
 /* --- SECTIONS-START --- */
 
 .sections-boxes{
-    padding:130px 0px 130px 0;
+    padding-top: 130px;
+    height: 350px;
 }
 @media only screen and (max-width: 959px) {
 .sections-boxes{
     text-align: center;
-    padding:100px 0px 100px 0;
 }
 }
 .shamir-run-bg{
+    height: 350px;
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-image: url(pictures/sha-run.jpeg); 
 }
 .shamir-golf-bg{
+    height: 350px;
     background-position: top;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-image: url(pictures/sha-golf.jpeg); 
 }
 .shamir-sky-bg{
+    height: 350px;
     background-position: top;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-image: url(pictures/sha-sky.jpeg); 
 }
 .shamir-tennis-bg{
+    height: 350px;
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
