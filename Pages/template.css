@@ -16099,7 +16099,24 @@ Custom css - 03.08.18
     background-position: 100px 250px;
     background-size: 600px;
 }
-
+.seguro_bg{
+    background-position: left;
+    background-size: auto 100%;
+    background-image: url(pictures/header-seguro.jpeg);
+}
+.seguro_bg_right{
+    height: 100%;
+    background-image: url(pictures/logo-seguro-trans.png);
+    background-repeat: no-repeat;
+    background-position: 100px 250px;
+    background-size: 450px;
+}
+.blueshield_bg{
+    background-position: center;
+    background-size: auto 100%;
+    background-image: url(pictures/header-blueshield.jpeg);
+    background-color: #cbcbcb;
+}
 @media only screen and (max-width: 959px) {
     .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
@@ -16110,7 +16127,18 @@ Custom css - 03.08.18
     }
     .porqueshamir_bg_right{
         background-image: none ;
-}
+    }
+    .seguro_bg_right{
+        height: 80%;
+        top: -1px;
+        background-image: none;
+        background: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+    }
+    .blueshield_bg{
+    background-position: 55% bottom;
+    background-size: auto 75%;
+    background-image: url(pictures/header-blueshield.jpeg);
+    }
 }
 
 /* ----- HEADERS-END ----- */
@@ -16124,6 +16152,24 @@ Custom css - 03.08.18
     padding: 10px 0px 20px 0px;
     font-size:90px;
     line-height: 70px;
+    background: linear-gradient(110deg, #DB0723, #9F1238);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.headers_title_orange{
+    padding: 10px 0px 20px 0px;
+    font-size:90px;
+    line-height: 70px;
+    background: linear-gradient(70deg, #CE3362, #FFC477);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.headers_title_orange sup{
+    background: linear-gradient(70deg, #ea896e, #FFC477);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.headers_title_red sup{
     background: linear-gradient(110deg, #DB0723, #9F1238);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16142,7 +16188,7 @@ Custom css - 03.08.18
 .vertical-center-title{
     padding-top: 15px;
 }
-.headers_title_red{
+.headers_title_red, .headers_title_orange{
     font-size:50px;
     line-height: 45px;
     font-weight: 500;
@@ -16157,7 +16203,7 @@ Custom css - 03.08.18
     background: linear-gradient(110deg, #DB0723, #9F1238);
 }
 .orange_gradient{
-    background: linear-gradient(70deg, #CE3362, #FFC477);
+        background: linear-gradient(70deg, #ce3362d9, #ffc477e6);
 }
 
 /* ---- GRADIENTS-END ---- */
@@ -16167,6 +16213,15 @@ Custom css - 03.08.18
 .sections-boxes{
     padding-top: 130px;
     height: 350px;
+}
+.boxes{
+    padding: 30px;
+    margin: 15px;
+    min-height: 315px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media only screen and (max-width: 959px) {
 .sections-boxes{
@@ -16201,6 +16256,20 @@ Custom css - 03.08.18
     background-repeat: no-repeat;
     background-image: url(pictures/sha-tennis.jpeg); 
 }
+.shamir-man-sit-bg{
+    height: 350px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-man-sit.jpeg);
+}
+.shamir-temp{
+    height: 350px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-temp.jpeg);
+}
 .max-pad{
     padding: 100px 0 100px 0;
 }
@@ -16226,9 +16295,22 @@ Custom css - 03.08.18
     text-decoration: none;
     transition: 700ms ease;
 }
-.cta:hover{
+.cta:hover {
     color:#fff;
     background: #d20a11;
+}
+.cta-2{
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 700ms ease;
+}
+.cta-2:hover {
+    border: 1px solid #d20a11;
+    background: linear-gradient(70deg, transparent, transparent);
 }
 .lists ul{
     margin-left: 17px;
