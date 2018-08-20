@@ -16117,6 +16117,12 @@ Custom css - 03.08.18
     background-image: url(pictures/header-blueshield.jpeg);
     background-color: #cbcbcb;
 }
+.inotime_bg{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(70deg, #ce3362d9, #ffc477e6), url(pictures/header-inotime.jpeg);
+    background-color: #cbcbcb;
+}
 @media only screen and (max-width: 959px) {
     .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
@@ -16164,6 +16170,12 @@ Custom css - 03.08.18
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.headers_title_white{
+    padding: 10px 0px 20px 0px;
+    font-size:90px;
+    line-height: 70px;
+    color: #fff;
+}
 .headers_title_orange sup{
     background: linear-gradient(70deg, #ea896e, #FFC477);
     -webkit-background-clip: text;
@@ -16175,20 +16187,31 @@ Custom css - 03.08.18
     -webkit-text-fill-color: transparent;
 }
 .vertical-center-title{
-    padding-top: 190px;
+    display: flex;
+    align-items: center;
+}
+.ver-hor-center-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .featured-title{
     font-size:40px;
     line-height: 35px;
+}
+.title-box{
+    padding: 37px 0px 20px 30px;
+    margin: 20px 0px 20px 0px;
 }
 @media only screen and (max-width: 959px) {
 .headers_subtitle{
     font-size:20px;
 }
 .vertical-center-title{
+    display:block;
     padding-top: 15px;
 }
-.headers_title_red, .headers_title_orange{
+.headers_title_red, .headers_title_orange, .headers_title_white{
     font-size:50px;
     line-height: 45px;
     font-weight: 500;
@@ -16203,17 +16226,13 @@ Custom css - 03.08.18
     background: linear-gradient(110deg, #DB0723, #9F1238);
 }
 .orange_gradient{
-        background: linear-gradient(70deg, #ce3362d9, #ffc477e6);
+        background: linear-gradient(70deg, #b30036d9, #ffc477e6);
 }
 
 /* ---- GRADIENTS-END ---- */
 
 /* --- SECTIONS-START --- */
 
-.sections-boxes{
-    padding-top: 130px;
-    height: 350px;
-}
 .boxes{
     padding: 30px;
     margin: 15px;
@@ -16222,6 +16241,13 @@ Custom css - 03.08.18
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sections-boxes{
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
 @media only screen and (max-width: 959px) {
 .sections-boxes{
@@ -16270,6 +16296,31 @@ Custom css - 03.08.18
     background-repeat: no-repeat;
     background-image: url(pictures/sha-temp.jpeg);
 }
+.shamir-lente-bg{
+    height: 350px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-lente.jpeg);
+}
+.shamir-drone-bg{
+    height: 350px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-drone.jpeg);
+}
+.shamir-machine-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url(pictures/sha-machine.jpeg) ;
+}
+@media only screen and (max-width: 959px) {
+.shamir-run-bg, .shamir-golf-bg, .shamir-sky-bg, .shamir-tennis-bg, .shamir-man-sit-bg, .shamir-temp, .shamir-lente-bg, .shamir-drone-bg {
+    background-size: cover;
+}
+}
 .max-pad{
     padding: 100px 0 100px 0;
 }
@@ -16277,7 +16328,12 @@ Custom css - 03.08.18
     padding: 50px 0 50px 0;
 }
 .min-pad{
-    padding: 15px 0 15px 0;
+    margin: 15px 15px 15px 15px;
+}
+.big-section{
+    padding:100px 0 100px 0;
+    height: 550px;
+    background-color: darkgray;
 }
 
 /* ---- SECTIONS-END ---- */
@@ -16286,8 +16342,8 @@ Custom css - 03.08.18
 
 .cta{
     color: #d20a11;
-    padding: 10px 20px 10px 20px;
-    font-size: 21px;
+    padding: 10px 30px 10px;
+    font-size: 17px;
     font-weight: 600;
     background: transparent;
     border: 1px solid #d20a11;
@@ -16300,9 +16356,10 @@ Custom css - 03.08.18
     background: #d20a11;
 }
 .cta-2{
+    min-width: 181px;
     color: #fff;
-    padding: 10px 20px 10px 20px;
-    font-size: 21px;
+    padding: 10px 30px 10px;
+    font-size: 17px;
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
