@@ -16047,6 +16047,7 @@ div.maximenuckh ul:not(.noresponsive) div.floatck div.floatck,
 }
 
 /* ------------------------- 
+
 ◼︎◼︎◼︎◼︎   ◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎
 ◼︎◼︎◼︎◼︎   ◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎
 ◼︎◼︎◼︎◼︎   ◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎◼︎
@@ -16120,7 +16121,7 @@ Custom css - 03.08.18
 .inotime_bg{
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(70deg, #ce3362d9, #ffc477e6), url(pictures/header-inotime.jpeg);
+    background-image: linear-gradient(70deg, #ce3362d9, #ffc477bd), url(pictures/header-inotime.jpeg);
     background-color: #cbcbcb;
 }
 @media only screen and (max-width: 959px) {
@@ -16203,6 +16204,17 @@ Custom css - 03.08.18
     padding: 37px 0px 20px 30px;
     margin: 20px 0px 20px 0px;
 }
+.title-box p, .title-box h1, .title-box h2{
+    text-align: left;
+}
+.sub-titles-home{
+    padding-left: 33px;
+    text-align: left;
+    max-width: 220px;
+}
+.sub-titles-home .button-black{
+    text-align: center;
+}
 @media only screen and (max-width: 959px) {
 .headers_subtitle{
     font-size:20px;
@@ -16216,6 +16228,21 @@ Custom css - 03.08.18
     line-height: 45px;
     font-weight: 500;
 }
+.title-box{
+    padding: 9px 0px 0px 12px;
+    margin: 20px 0px 20px 0px;
+}
+.title-box h1{
+    font-size:25px;
+    padding: 0px;
+}
+.featured-title{
+    font-size:30px;
+    line-height: 30px;
+}
+.sub-titles-home{
+    padding-left: 13px;
+}
 }    
 
 /* ----- TITLES-END ----- */
@@ -16226,7 +16253,7 @@ Custom css - 03.08.18
     background: linear-gradient(110deg, #DB0723, #9F1238);
 }
 .orange_gradient{
-        background: linear-gradient(70deg, #b30036d9, #ffc477e6);
+        background: linear-gradient(70deg, #b30036d9, #ffc477bd);
 }
 
 /* ---- GRADIENTS-END ---- */
@@ -16243,11 +16270,44 @@ Custom css - 03.08.18
     align-items: center;
 }
 .sections-boxes{
-    height:350px;
+    min-height:350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    padding:10px 30px 10px 30px;
+    
+}
+.big-buttons-home{
+    position: relative;
+    display: flex;
+    min-height: 350px;
+    z-index: 0;
+    padding:30px;
+    text-decoration:none;
+    align-items: flex-end;
+}
+.big-buttons-home h2{
+    z-index: 1;
+    color:#fff;
+    transition: 700ms ease;
+}
+.big-buttons-home:hover h2{
+    color:#44444a;
+}
+.big-buttons-home:before{
+    position: absolute;
+    content:" ";
+    z-index: 0;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+    transition: 700ms ease;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.big-buttons-home:hover:before{
+    background-color: rgba(255, 255, 255, 0.50);
 }
 @media only screen and (max-width: 959px) {
 .sections-boxes{
@@ -16316,10 +16376,47 @@ Custom css - 03.08.18
     background-repeat: no-repeat;
     background-image:  url(pictures/sha-machine.jpeg) ;
 }
-@media only screen and (max-width: 959px) {
-.shamir-run-bg, .shamir-golf-bg, .shamir-sky-bg, .shamir-tennis-bg, .shamir-man-sit-bg, .shamir-temp, .shamir-lente-bg, .shamir-drone-bg {
+.shamir-inotime-home-bg{
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(70deg, #3367cee6, #ff7e5aa6), url(pictures/sha-inotime-home.jpeg) ;
 }
+.shamir-desporto-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(70deg, #148e99de, #ffc477c7), url(pictures/sha-desport-home.jpeg) ;
+}
+.shamir-autograph-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(70deg, #b30036d9, #ffc477bd), url(pictures/sha-autograph-home.jpeg) ;
+}
+.shamir-estilo-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-estilo-home.jpeg) ;
+}
+.shamir-visao-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-visao-home.jpeg) ;
+}
+.shamir-tec-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-tec-home.jpeg) ;
+}
+.shamir-shamir-home-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-shamir-home.jpeg) ;
 }
 .max-pad{
     padding: 100px 0 100px 0;
@@ -16328,47 +16425,85 @@ Custom css - 03.08.18
     padding: 50px 0 50px 0;
 }
 .min-pad{
-    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
 }
 .big-section{
     padding:100px 0 100px 0;
     height: 550px;
     background-color: darkgray;
 }
+@media only screen and (max-width: 959px) {
+    .shamir-run-bg, .shamir-golf-bg, .shamir-sky-bg, .shamir-tennis-bg, .shamir-man-sit-bg, .shamir-temp, .shamir-lente-bg, .shamir-drone-bg {
+        background-size: cover;
+}
+    .min-pad{
+        padding: 11px 15px 11px 15px;
+}
+}
 
 /* ---- SECTIONS-END ---- */
 
-/* --- ELEMENTS-START --- */
+/* --- BUTTONS-START --- */
 
-.cta{
-    color: #d20a11;
-    padding: 10px 30px 10px;
+.button-red, .button-black, .button-white, .button-transp {
+    display: inline-block;
+    min-width: 180px;
+    padding: 8px 18px 8px 18px;
     font-size: 17px;
     font-weight: 600;
-    background: transparent;
-    border: 1px solid #d20a11;
     cursor: pointer;
     text-decoration: none;
     transition: 700ms ease;
 }
-.cta:hover {
+@media only screen and (max-width: 959px) {
+    .button-red, .button-black, .button-white, .button-transp {
+        padding: 7px 12px 7px;
+        font-size: 13px;
+        font-weight: 500;
+        min-width: 150px;
+    }
+}
+.button-red{
+    color: #d20a11;
+    background: transparent;
+    border: 1px solid #d20a11;
+}
+.button-red:hover {
     color:#fff;
     background: #d20a11;
 }
-.cta-2{
-    min-width: 181px;
-    color: #fff;
-    padding: 10px 30px 10px;
-    font-size: 17px;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    transition: 700ms ease;
+.button-black{
+    color: #44444a;
+    background: transparent;
+    border: 1px solid #44444a;
+
 }
-.cta-2:hover {
+.button-black:hover {
+    color:#fff;
+    background: #44444a;
+}
+.button-white{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+
+}
+.button-white:hover {
+    color:#44444a;
+    background: #fff;
+}
+.button-transp{
+    color: #fff; 
+}
+.button-transp:hover {
     border: 1px solid #d20a11;
     background: linear-gradient(70deg, transparent, transparent);
 }
+
+/* --- BUTTONS-END --- */
+
+/* --- ELEMENTS-START --- */
+
 .lists ul{
     margin-left: 17px;
 }
