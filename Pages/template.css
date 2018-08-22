@@ -16124,6 +16124,53 @@ Custom css - 03.08.18
     background-image: linear-gradient(70deg, #ce3362d9, #ffc477bd), url(pictures/header-inotime.jpeg);
     background-color: #cbcbcb;
 }
+.tecnologia_bg{
+    position: relative;
+    background-position: right;
+    background-size: auto 100%;
+    background-image: url(pictures/header-tecnologia.jpeg);
+    overflow: hidden;
+}
+.tecnologia_bg::before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:0; right:0; left:-150px;
+    background-image: url(pictures/blured.png);
+    background-position: left bottom;
+    background-size: auto 115%;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+.autograph_bg{
+    background-position: left bottom;
+    background-size: auto 110%;
+    background-image: url(pictures/header-autographIII.jpeg);
+    background-color: #e1e5e8;
+}
+.autograph_bg::before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:0; right:0; left:0;
+    background-image: linear-gradient(90deg, transparent 30%, #fff);
+    height: 600px;
+}
+.visao_bg{
+    position: relative;
+    background-position: right;
+    background-size: auto 100%;
+    background-image: url(pictures/header-visao.jpeg);
+    background-color: #fc8e5d;
+}
+.visao_bg::before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:0; right:0; left:0;
+    background-image: linear-gradient(270deg, transparent 30%, #b30036d9);
+}
 @media only screen and (max-width: 959px) {
     .desportivas_bg{
         background-image: url(pictures/header-desportivas-XS.jpeg);
@@ -16145,6 +16192,24 @@ Custom css - 03.08.18
     background-position: 55% bottom;
     background-size: auto 75%;
     background-image: url(pictures/header-blueshield.jpeg);
+    }
+    .tecnologia_bg{
+    background-position: 80% ;
+    }
+    .tecnologia_bg::before{
+    background-image: linear-gradient(180deg, #fff0, #fff);
+    }
+    .autograph_bg::before{
+    background-image: linear-gradient(180deg, transparent , #fff 80%);
+    height:400px;
+    }
+    .visao_bg{
+    background-position: center center;
+    background-size: cover;
+    background-image: url(pictures/header-visao-xs.jpg);
+    }
+    .visao_bg::before{
+    background-image: linear-gradient(0deg, transparent 30%, #b30036d9);
     }
 }
 
@@ -16177,6 +16242,12 @@ Custom css - 03.08.18
     line-height: 70px;
     color: #fff;
 }
+.headers_title_big_white{
+    padding: 10px 0px 20px 0px;
+    font-size:130px;
+    line-height: 90px;
+    color: #fff;
+}
 .headers_title_orange sup{
     background: linear-gradient(70deg, #ea896e, #FFC477);
     -webkit-background-clip: text;
@@ -16198,10 +16269,10 @@ Custom css - 03.08.18
 }
 .featured-title{
     font-size:40px;
-    line-height: 35px;
+    line-height: 45px;
 }
 .title-box{
-    padding: 37px 0px 20px 30px;
+    padding: 37px 0px 20px 25px;
     margin: 20px 0px 20px 0px;
 }
 .title-box p, .title-box h1, .title-box h2{
@@ -16215,6 +16286,9 @@ Custom css - 03.08.18
 .sub-titles-home .button-black{
     text-align: center;
 }
+.title-category{
+    padding: 30px 0px 0px 30px;
+}
 @media only screen and (max-width: 959px) {
 .headers_subtitle{
     font-size:20px;
@@ -16222,6 +16296,10 @@ Custom css - 03.08.18
 .vertical-center-title{
     display:block;
     padding-top: 15px;
+}
+.tec-shamir-cat .vertical-center-title{
+    display:block;
+    padding-top: 220px;
 }
 .headers_title_red, .headers_title_orange, .headers_title_white{
     font-size:50px;
@@ -16242,6 +16320,9 @@ Custom css - 03.08.18
 }
 .sub-titles-home{
     padding-left: 13px;
+}
+.title-category{
+    padding: 0px 0px 0px 0px;
 }
 }    
 
@@ -16418,6 +16499,62 @@ Custom css - 03.08.18
     background-repeat: no-repeat;
     background-image: url(pictures/sha-shamir-home.jpeg) ;
 }
+.shamir-eyepoint-bg{
+    height: 350px;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-eyepoint.jpeg) ;
+}
+.shamir-posture-bg{
+    height: 350px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-natural.jpeg) ;
+}
+.shamir-intellicorridor-bg{
+    height: 350px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-intellicorridor.jpeg) ;
+}
+.shamir-asworn-bg{
+    height: 350px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-asworn.jpeg) ;
+}
+.shamir-closeup-bg{
+    height: 350px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pictures/sha-closeup.jpeg) ;
+}
+.shamir-big-autograph-bg{
+    height: 100%;
+    background-position: left bottom;
+    background-size: cover;
+    background-image: url(pictures/sha-big-autograph.jpeg);
+}
+.shamir-miopia-bg{
+    height: 350px;
+    background-position: left ;
+    background-size: auto 100% ;
+    background-image: url(pictures/sha-miopia-visao.jpeg);
+    background-repeat: no-repeat;
+    background-color: #ebebeb;
+}
+.shamir-miopia-bg:before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:0; right:0; left:0;
+    background-image: linear-gradient(90deg, transparent 45%, #ebebeb);
+    height: 350px
+}
 .max-pad{
     padding: 100px 0 100px 0;
 }
@@ -16432,6 +16569,9 @@ Custom css - 03.08.18
     height: 550px;
     background-color: darkgray;
 }
+.tec-categories{
+    max-width: 700px;
+}
 @media only screen and (max-width: 959px) {
     .shamir-run-bg, .shamir-golf-bg, .shamir-sky-bg, .shamir-tennis-bg, .shamir-man-sit-bg, .shamir-temp, .shamir-lente-bg, .shamir-drone-bg {
         background-size: cover;
@@ -16439,14 +16579,34 @@ Custom css - 03.08.18
     .min-pad{
         padding: 11px 15px 11px 15px;
 }
+    .tec-categories{
+        max-width: 100%;
+        top: -60px;
+        position: absolute;
+        left: 25px;
+        right: 25px;
+    }
+    .tec-shamir-cat .sections-boxes{
+        min-height: 290px;
+    }
+    .tec-shamir-cat .big-section{
+        text-align: center;
+        height: auto;
+    }
+    .shamir-big-autograph-bg{
+    height: 100%;
+    background-color: #f1f2f3;
+    background-image: none;
+}
 }
 
 /* ---- SECTIONS-END ---- */
 
 /* --- BUTTONS-START --- */
 
-.button-red, .button-black, .button-white, .button-transp {
+.button-red, .button-black, .button-white, .button-transp, .button-seguro {
     display: inline-block;
+    text-align: center;
     min-width: 180px;
     padding: 8px 18px 8px 18px;
     font-size: 17px;
@@ -16454,14 +16614,6 @@ Custom css - 03.08.18
     cursor: pointer;
     text-decoration: none;
     transition: 700ms ease;
-}
-@media only screen and (max-width: 959px) {
-    .button-red, .button-black, .button-white, .button-transp {
-        padding: 7px 12px 7px;
-        font-size: 13px;
-        font-weight: 500;
-        min-width: 150px;
-    }
 }
 .button-red{
     color: #d20a11;
@@ -16476,7 +16628,6 @@ Custom css - 03.08.18
     color: #44444a;
     background: transparent;
     border: 1px solid #44444a;
-
 }
 .button-black:hover {
     color:#fff;
@@ -16496,8 +16647,36 @@ Custom css - 03.08.18
     color: #fff; 
 }
 .button-transp:hover {
-    border: 1px solid #d20a11;
-    background: linear-gradient(70deg, transparent, transparent);
+    background: #d20a11;
+    color:#fff;
+}
+.button-seguro {
+    text-align: left;
+    color:#fff;
+    position: absolute;
+    right:30px;
+    top:-98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-seguro:hover {
+    background: #d20a11;
+    color:#fff;
+}
+@media only screen and (max-width: 959px) {
+    .button-red, .button-black, .button-white, .button-transp {
+        padding: 7px 12px 7px;
+        font-size: 13px;
+        font-weight: 500;
+        min-width: 150px;
+    }
+    .button-seguro {
+        position: relative;
+        width: 100%;
+        right:0;
+        top:0;
+    }
 }
 
 /* --- BUTTONS-END --- */
@@ -16512,10 +16691,16 @@ Custom css - 03.08.18
     line-height: 22px;
 }
 .lists li:before{
-  content: "- ";
+    content: "- ";
 }
 .red-font{
     color:#d20a11;
+}
+.tec-icons{
+    display:inline-block;
+    max-width: 80px;
+    margin: 20px 0px 20px;
+    border-radius:50%;
 }
 
 /* ---- ELEMENTS-END ---- */
