@@ -16173,12 +16173,11 @@ Custom css - 03.08.18
     background-image: url(images/images-id/header-lifestyle-bg.jpeg);
     background-repeat: no-repeat;
 }
-.lifestyle-bg:before{
+.lifestyle-bg::before{
     content:" ";
     position: absolute;
     top:0; bottom:0; right:0; left:0;
-    background-image: linear-gradient(180deg, transparent 30%, #fff);
-    height: 200px
+    background: black;
 }
 @media only screen and (max-width: 959px) {
     .headers-image{
@@ -16347,7 +16346,7 @@ Custom css - 03.08.18
 /* --- GRADIENTS-START --- */
 
 .red_gradient{
-    background: linear-gradient(110deg, #DB0723, #9F1238);
+    background: linear-gradient(110deg, #db0723ed, #9f1238ed);
 }
 .orange_gradient{
         background: linear-gradient(70deg, #b30036d9, #ffc477bd);
@@ -16372,7 +16371,13 @@ Custom css - 03.08.18
     justify-content: center;
     align-items: center;
     padding:10px 30px 10px 30px;
-    
+}
+.lifestyle-boxes{
+    min-height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
 }
 .big-buttons-home{
     position: relative;
@@ -16588,12 +16593,78 @@ Custom css - 03.08.18
     background-repeat: no-repeat;
     background-color: #ebebeb;
 }
-    .shamir-miopia-bg:before, .shamir-hiper-bg:before, .shamir-astigmatismo-bg:before, .shamir-presbiopia-bg:before {
+.shamir-miopia-bg:before, .shamir-hiper-bg:before, .shamir-astigmatismo-bg:before, .shamir-presbiopia-bg:before {
     content:" ";
     position: absolute;
     top:0; bottom:0; right:0; left:0;
     background-image: linear-gradient(90deg, transparent 65%, #ebebeb);
     height: 350px;
+}
+.lifestyle-desporto-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-desporto.jpeg);
+}
+.lifestyle-estrada-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-estrada.jpeg);
+}
+.lifestyle-digital-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-digital.jpeg);
+}
+.lifestyle-progressivas-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-progressivas.jpeg);
+}
+.lifestyle-leitura-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-leitura.jpeg);
+}
+.lifestyle-uv-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-uv.jpeg);
+}
+.lifestyle-cansaco-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-cansaco.jpeg);
+}
+.lifestyle-luzazul-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-luzazul.jpeg);
+}
+.lifestyle-crianca-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/images-id/lifestyle-criancas.jpeg);
+}
+.lifestyle-desporto-bg:before, .lifestyle-estrada-bg:before, .lifestyle-digital-bg:before, .lifestyle-progressivas-bg:before, .lifestyle-leitura-bg:before, .lifestyle-uv-bg:before, .lifestyle-cansaco-bg:before, .lifestyle-luzazul-bg:before, .lifestyle-crianca-bg:before {
+    content:" ";
+    position: absolute;
+    top:15px; bottom:15px; right:15px; left:15px;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index:0;
+    cursor: pointer;
+    transition: 700ms ease;
+}
+.lifestyle-boxes:hover:before{
+    background-color: rgba(255, 255, 255, 0.50);
 }
 .max-pad{
     padding: 100px 0 100px 0;
