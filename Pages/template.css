@@ -16173,12 +16173,6 @@ Custom css - 03.08.18
     background-image: url(images/images-id/header-lifestyle-bg.jpeg);
     background-repeat: no-repeat;
 }
-.lifestyle-bg::before{
-    content:" ";
-    position: absolute;
-    top:0; bottom:0; right:0; left:0;
-    background: black;
-}
 @media only screen and (max-width: 959px) {
     .headers-image{
     height: 400px;
@@ -16234,6 +16228,9 @@ Custom css - 03.08.18
 
 .headers_subtitle{
     font-size:50px;
+}
+.headers_subtitle-2{
+    font-size:30px;
 }
 .headers_title_red{
     padding: 10px 0px 20px 0px;
@@ -16305,7 +16302,7 @@ Custom css - 03.08.18
     padding: 30px 0px 0px 30px;
 }
 @media only screen and (max-width: 959px) {
-.headers_subtitle{
+.headers_subtitle, .headers_subtitle-2{
     font-size:20px;
 }
 .vertical-center-title{
@@ -16349,7 +16346,10 @@ Custom css - 03.08.18
     background: linear-gradient(110deg, #db0723ed, #9f1238ed);
 }
 .orange_gradient{
-        background: linear-gradient(70deg, #b30036d9, #ffc477bd);
+    background: linear-gradient(70deg, #b30036d9, #ffc477bd);
+}
+.orange_gradient_to_w{
+    background: linear-gradient(70deg, transparent 50%, #b300362b, #b3003687, #ffc477db);
 }
 
 /* ---- GRADIENTS-END ---- */
@@ -16735,7 +16735,10 @@ Custom css - 03.08.18
     }
     .shamir-miopia-bg:before, .shamir-hiper-bg:before, .shamir-astigmatismo-bg:before, .shamir-presbiopia-bg:before {
     background-image: none;
-    }   
+    }
+    .lifestyle-desporto-bg:before, .lifestyle-estrada-bg:before, .lifestyle-digital-bg:before, .lifestyle-progressivas-bg:before, .lifestyle-leitura-bg:before, .lifestyle-uv-bg:before, .lifestyle-cansaco-bg:before, .lifestyle-luzazul-bg:before, .lifestyle-crianca-bg:before {
+    top:11px; bottom:15px; right:15px; left:15px;
+}
 }
 
 /* ---- SECTIONS-END ---- */
