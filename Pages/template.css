@@ -16078,6 +16078,25 @@ Custom css - 03.08.18
     height: 200px; 
     background-color: transparent;
 }
+.product-headers-2{
+    position: relative;
+    width:100%;
+    padding:70px 10px 70px 10px;
+    margin-top:3px;
+}
+.product-headers-2::before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:-26px; right:0; left:-30px;
+    background-image: url(images/images-id/corner-triangles.png);
+    background-position: bottom left;
+    background-size: 190px;
+    background-repeat: no-repeat;
+}
+.product-headers-2 p, h1, h2, h3, h4{
+    color:white;
+    text-align:center;
+}
 .desportivas_bg{
     background-position: center;
     background-size: auto 100%;
@@ -16173,14 +16192,51 @@ Custom css - 03.08.18
     background-image: url(images/images-id/header-lifestyle-bg.jpeg);
     background-repeat: no-repeat;
 }
+.lifestyle-e-digital-bg{
+    position: relative;
+    background-position: right;
+    background-size: auto 100%;
+    background-image: url(images/images-id/header-lifestyle-digital-bg.jpeg);
+    background-repeat: no-repeat;
+}
+.attitude_III_sv_bg{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(70deg, #ce3362d9, #ffc477bd), url(images/images-id/header-attitude-III-sv.jpeg);
+}
+.autograph_freeframe_bg{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(70deg, #b30036d9, #ffc477bd), url(images/images-id/header-autograph-freeframe.jpeg);
+}
+.computer_workspace_bg{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(70deg, #b30036d9, #ffc477bd), url(images/images-id/header-computer-workspace.jpeg);
+}
+.relax_bg{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(70deg, #b30036d9, #ffc477bd), url(images/images-id/header-relax.jpeg);
+}
 @media only screen and (max-width: 959px) {
     .headers-image{
     height: 400px;
     text-align: center;
     }
+    .lifestyle{
+    height: 250px; 
+    background-color: transparent;
+    }
+    .lifestyle::before{
+    content:" ";
+    position: absolute;
+    top:0; bottom:0; right:0; left:0;
+    background-image: linear-gradient(110deg, #fff , transparent);
+    }
     .headers-image h1{
     text-align: center;
-}
+    }
     .desportivas_bg{
         background-image: url(images/images-id/header-desportivas-XS.jpeg);
     }
@@ -16220,6 +16276,9 @@ Custom css - 03.08.18
     .visao_bg::before{
     background-image: linear-gradient(0deg, transparent 30%, #b30036d9);
     }
+    .product-headers-2::before{
+    background-size: 150px;
+}
 }
 
 /* ----- HEADERS-END ----- */
@@ -16230,6 +16289,7 @@ Custom css - 03.08.18
     font-size:50px;
 }
 .headers_subtitle-2{
+    margin: 0px 6px 0px 6px;
     font-size:30px;
 }
 .headers_title_red{
@@ -16282,6 +16342,9 @@ Custom css - 03.08.18
 .featured-title{
     font-size:40px;
     line-height: 45px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: bottom;
 }
 .title-box{
     padding: 37px 0px 20px 25px;
@@ -16350,8 +16413,8 @@ Custom css - 03.08.18
 }
 .orange_gradient_to_w{
     background: linear-gradient(70deg, transparent 50%, #b300362b, #b3003687, #ffc477db);
-}
 
+}
 /* ---- GRADIENTS-END ---- */
 
 /* --- SECTIONS-START --- */
@@ -16359,7 +16422,7 @@ Custom css - 03.08.18
 .boxes{
     padding: 30px;
     margin: 15px;
-    min-height: 315px;
+    min-height: 345px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -16749,6 +16812,7 @@ Custom css - 03.08.18
     display: inline-block;
     text-align: center;
     min-width: 180px;
+    margin:10px;
     padding: 8px 18px 8px 18px;
     font-size: 17px;
     font-weight: 600;
@@ -16764,6 +16828,12 @@ Custom css - 03.08.18
 .button-red:hover {
     color:#fff;
     background: #d20a11;
+}
+.button-red-active {
+    color:#fff;
+    background: #d20a11;
+    cursor: default;
+    pointer-events: none;
 }
 .button-black{
     color: #44444a;
