@@ -1,0 +1,102 @@
+/*Estilo para formulários Shamir*/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+.ArticleTemplateHolder{
+    max-width: 600px;
+    margin: 0 auto;
+    float: none;
+    font-size: 13px;
+    width: 90%;
+    box-sizing: border-box;
+    display: block;
+    padding: 0;
+}
+table{
+    font-size: 13px;
+    width:95%;
+}
+.ArticleitemTitle{
+    text-align:center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea {
+    padding:6px;
+    margin:0px auto 4px;
+    border:1px solid #ddd;
+    border-radius:20px;
+    width:100%;
+    background-color: transparent
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    background-color:#fafbfc;
+    border-color:#d20a11;
+}
+td input + a {
+    float: right;
+    margin: -28px -20px 0 40px;
+    width:16px;
+    height:16px;
+    padding: 1px 4px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid #d20a11;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+
+td input + a:hover {
+    background-color:#d20a11;
+    color:#fff;
+}
+td input + a img{
+    width:18px;
+    height:18px;
+    margin:-2px 0 0 -6px
+
+}
+a:link, a:visited{
+    color:#d20a11;
+}
+a.k2ReadMoresports{
+    width:80px;
+    text-align:center;
+    font-weight:bold;
+    background-color:#d20a11;
+    background-image:none;
+    padding:4px;
+    margin:4px;
+    display:inline-block;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+a.k2ReadMoresports:hover{
+    background-image: none;
+    background-color:#ed3b41;
+}
+a.k2ReadMoresports:active{
+    background-color:#8b0308;
+}
+@media screen and (max-width:480px){
+    /* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+		text-align:left;
+		width:100%;
+    }
+    table{
+		width:calc(100% - 15px);
+	}
+}
