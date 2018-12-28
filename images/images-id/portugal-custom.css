@@ -57,7 +57,7 @@ december, 17, 2018
     bottom: -26px;
     right: 0;
     left: -30px;
-    background-image: url(/images/images-id/corner-triangles.png);
+    background-image: url(../../images/images-id/corner-triangles.png);
     background-position: bottom left;
     background-size: 190px;
     background-repeat: no-repeat;
@@ -78,28 +78,28 @@ december, 17, 2018
     background-position: center;
     background-size: auto 100%;
     background-color: #fff;
-    background-image: url(/images/images-id/header-desportivas.jpg);
+    background-image: url(../../images/images-id/header-desportivas.jpg);
 }
-.bluezero-bg {background-image: url(/images/images-id/header-bluezero-sm-bg.jpg);}
+.bluezero-bg {background-image: url(../../images/images-id/header-bluezero-sm-bg.jpg);}
 .porqueshamir_bg, .seguro_bg {
     background-position: left;
     background-size: auto 100%;
-    background-image: url(/images/images-id/header-porqueshamir.jpg);
+    background-image: url(../../images/images-id/header-porqueshamir.jpg);
 }
 
 .porqueshamir_bg_right {
     height: 100%;
-    background-image: url(/images/images-id/shamir_logo_trans.png);
+    background-image: url(../../images/images-id/shamir_logo_trans.png);
     background-repeat: no-repeat;
     background-position: 100px 250px;
     background-size: 600px;
 }
 
-.seguro_bg {background-image: url(/images/images-id/header-seguro.jpg);}
+.seguro_bg {background-image: url(../../images/images-id/header-seguro.jpg);}
 
 .seguro_bg_right {
     height: 100%;
-    background-image: url(/images/images-id/logo-seguro.png);
+    background-image: url(../../images/images-id/logo-seguro.png);
     background-repeat: no-repeat;
     background-position: 100px 250px;
     background-size: 450px;
@@ -113,11 +113,11 @@ december, 17, 2018
     position: relative;
     background-position: 80%;
     background-size: cover;
-    background-image: url(/images/images-id/sha-machine.jpg);
+    background-image: url(../../images/images-id/sha-machine.jpg);
     overflow: hidden;
 
 }
-.banner-lentes-bg{background-image: url(/images/images-id/header-tecnologia.jpg);}
+.banner-lentes-bg{background-image: url(../../images/images-id/header-tecnologia.jpg);}
 
 .banner-lentes-bg::before {
     content: " ";
@@ -126,7 +126,7 @@ december, 17, 2018
     bottom: 0;
     right: 0;
     left: -0px;
-    background-image: url(/images/images-id/blured.png);
+    background-image: url(../../images/images-id/blured.png);
     background-position: left bottom;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -139,27 +139,27 @@ december, 17, 2018
 .computer_workspace_bg, .relax-bg, .intouch_bg, .autograph_bg, .inotime-bg, .intelligence-bg  {
     background-position: top center;
     background-size: cover;
-    background-image: url(/images/images-id/header-computer-workspace-sm.jpg);
+    background-image: url(../../images/images-id/header-computer-workspace-sm.jpg);
     background-color: #e1e5e8;
 }
 .intelligence-bg {
-    background-image: url(/images/images-id/shamir-intelligence.jpg);background-color: #fff;
+    background-image: url(../../images/images-id/shamir-intelligence.jpg);background-color: #fff;
 }
 
 .inotime-bg {
     background-color: #7DA7AA;
-    background-image: linear-gradient(70deg, #7DA7AA99, #7DA7AAff), url(/images/images-id/header-inotime.jpg);
+    background-image: linear-gradient(70deg, #7DA7AA99, #7DA7AAff), url(../../images/images-id/header-inotime.jpg);
 }
 
-.relax-bg { background-image: url(/images/images-id/header-relax-sm.jpg);}
+.relax-bg { background-image: url(../../images/images-id/header-relax-sm.jpg);}
 
 .intouch_bg {
-    background-image: url(/images/images-id/header-intouch-sm.jpg);
+    background-image: url(../../images/images-id/header-intouch-sm.jpg);
     color: #000;
 }
 
 .autograph_bg {
-    background-image: url(/images/images-id/header-autographIII-sm.jpg);
+    background-image: url(../../images/images-id/header-autographIII-sm.jpg);
     color: #000;
 }
 
@@ -169,7 +169,7 @@ december, 17, 2018
     position: relative;
     background-position: right;
     background-size: auto 100%;
-    background-image: url(/images/images-id/header-visao.jpg);
+    background-image: url(../../images/images-id/header-visao.jpg);
     background-color: #fc8e5d;
 }
 
@@ -186,18 +186,18 @@ december, 17, 2018
 .glacier-bg, .labs-bg {
     background-position: right;
     background-size: cover;
-    background-image: url(/images/images-id/header-glacier-sm.jpg);
+    background-image: url(../../images/images-id/header-glacier-sm.jpg);
     background-color: #e1e5e8;
     color: #000;
 }
 
-.labs-bg {background-image: url(/images/images-id/header-labs.jpg);}
+.labs-bg {background-image: url(../../images/images-id/header-labs.jpg);}
 
 .attitude_III_sv_bg {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(/images/images-id/bg-attitude-glasses.jpg);
+    background-image: url(../../images/images-id/bg-attitude-glasses.jpg);
 }
 
 .attitude-block{background-color: rgb(253, 224, 80);}
@@ -217,24 +217,24 @@ december, 17, 2018
     .headers-image { height: 600px; }
     .autograph_bg {
         background-position: center bottom;
-        background-image: url(/images/images-id/header-autographIII.jpg);
+        background-image: url(../../images/images-id/header-autographIII.jpg);
     }
 
     .intouch_bg {
         background-position: center bottom;
-        background-image: url(/images/images-id/header-intouch.jpg);
+        background-image: url(../../images/images-id/header-intouch.jpg);
     }
     .headers-image .content { max-width: 50%; padding: 40px;}
 
     .headers-image .content.right { right: 0; top: 20%; text-align: left;}
 
-    .computer_workspace_bg {background-image: url(/images/images-id/header-computer-workspace.jpg);}
+    .computer_workspace_bg {background-image: url(../../images/images-id/header-computer-workspace.jpg);}
 
-    .bluezero-bg {background-image: url(/images/images-id/header-bluezero-bg.jpg);}
+    .bluezero-bg {background-image: url(../../images/images-id/header-bluezero-bg.jpg);}
 
-    .glacier-bg {background-image: url(/images/images-id/header-glacier.jpg);}
+    .glacier-bg {background-image: url(../../images/images-id/header-glacier.jpg);}
 
-    .relax-bg {background-image: url(/images/images-id/header-relax.jpg);}
+    .relax-bg {background-image: url(../../images/images-id/header-relax.jpg);}
 
     .intelligence-bg {background-position: right;}
 }
@@ -256,7 +256,7 @@ december, 17, 2018
         background-image: linear-gradient(110deg, #fff, transparent);
     }
 
-    .desportivas_bg {background-image: url(/images/images-id/header-desportivas-XS.jpg);}
+    .desportivas_bg {background-image: url(../../images/images-id/header-desportivas-XS.jpg);}
 
     .porqueshamir_bg {
         background-position: left bottom;
@@ -281,7 +281,7 @@ december, 17, 2018
     .visao_bg {
         background-position: center center;
         background-size: cover;
-        background-image: url(/images/images-id/header-visao-xs.jpg);
+        background-image: url(../../images/images-id/header-visao-xs.jpg);
     }
 
     .visao_bg::before {
@@ -541,42 +541,37 @@ december, 17, 2018
 }
 .shamir-bike-bg {
     background-position: center top;
-    background-image: url(/images/images-id/sha-bike.jpg);
+    background-image: url(../../images/images-id/sha-bike.jpg);
 }
 .shamir-run-bg {
     background-position: center top;
-    background-image: url(/images/images-id/sha-run.jpg);
+    background-image: url(../../images/images-id/sha-run.jpg);
 }
 
 .shamir-golf-bg {
     background-position: top;
-    background-image: url(/images/images-id/sha-golf.jpg);
+    background-image: url(../../images/images-id/sha-golf.jpg);
 }
 
 .shamir-sky-bg {
     background-position: top;
-    background-image: url(/images/images-id/sha-sky.jpg);
-}
-
-.shamir-tennis-bg {
-    background-position: center;
-    background-image: url(/images/images-id/header-desportivas-XS.jpg);
+    background-image: url(../../images/images-id/sha-sky.jpg);
 }
 
 .shamir-man-sit-bg {
     background-position: center;
-    background-image: url(/images/images-id/sha-man-sit.jpg);
+    background-image: url(../../images/images-id/sha-man-sit.jpg);
 }
 
-.shamir-lente-bg {background-image: url(/images/images-id/sha-lente.jpg);}
-.shamir-lente-bg-2 {background-image: url(/images/images-id/sha-lente-2.jpg);}
+.shamir-lente-bg {background-image: url(../../images/images-id/sha-lente.jpg);}
+.shamir-lente-bg-2 {background-image: url(../../images/images-id/sha-lente-2.jpg);}
 
 .shamir-machine-bg,
 .shamir-home-bg {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/images-id/sha-machine.jpg);
+    background-image: url(../../images/images-id/sha-machine.jpg);
     background-color:#f1f2f3;
 }
 
@@ -587,7 +582,6 @@ december, 17, 2018
 .shamir-eyepoint-bg,
 .shamir-asworn-bg,
 .shamir-lente-bg,.shamir-lente-bg-2,
-.shamir-seguro-autograph-bg
 .shamir-lente-bg-2 {
     height: 350px;
     background-position: top;
@@ -595,39 +589,39 @@ december, 17, 2018
     background-repeat: no-repeat;
 }
 
-.shamir-asworn-bg {background-image: url(/images/images-id/sha-asworn.jpg);}
+.shamir-asworn-bg {background-image: url(../../images/images-id/sha-asworn.jpg);}
 
-.shamir-eyepoint-bg { background-image: url(/images/images-id/sha-eyepoint.jpg);}
+.shamir-eyepoint-bg { background-image: url(../../images/images-id/sha-eyepoint.jpg);}
 
-.shamir-rapariga-bg {background-image: url(/images/images-id/shamir-rapariga.jpg);}
+.shamir-rapariga-bg {background-image: url(../../images/images-id/shamir-rapariga.jpg);}
 
 .shamir-crianca-bg {
     background: rgba(206, 51, 98, 0.65);
-    background: linear-gradient(70deg, rgba(255, 196, 119, 0.56), rgba(206, 51, 98, 0.65)), url(/images/images-id/sha-crianca.jpg);
+    background: linear-gradient(70deg, rgba(255, 196, 119, 0.56), rgba(206, 51, 98, 0.65)), url(../../images/images-id/sha-crianca.jpg);
     background-size: cover
 }
 
-.shamir-posture-bg {background-image: url(/images/images-id/sha-natural.jpeg);}
+.shamir-posture-bg {background-image: url(../../images/images-id/sha-natural.jpeg);}
 
-.shamir-girl-bg {background-image: url(/images/images-id/shamir-seguro-autograph.jpg);}
+.shamir-girl-bg {background-image: url(../../images/images-id/shamir-seguro-autograph.jpg);}
 
 .shamir-lentes-bg {
     background-size: cover;
-    background-image: url(/images/images-id/aslentes-organicas.png);
+    background-image: url(../../images/images-id/aslentes-organicas.png);
 }
 
 .shamir-2lentes-bg {
     background-size: cover;
-    background-image: url(/images/images-id/aslentes-organicas-2.png);
+    background-image: url(../../images/images-id/aslentes-organicas-2.png);
 }
 
-.shamir-intellicorridor-bg {background-image: url(/images/images-id/sha-intellicorridor.jpeg);}
-.shamir-closeup-bg {background-image: url(/images/images-id/sha-closeup.jpeg);}
-.shamir-man-redlenses-bg {background-image: url(/images/images-id/shamir-man-red-lenses.jpg);}
-.shamir-couple-sun-bg {background-image: url(/images/images-id/shamir-couple.jpg);}
+.shamir-intellicorridor-bg {background-image: url(../../images/images-id/sha-intellicorridor.jpeg);}
+.shamir-closeup-bg {background-image: url(../../images/images-id/sha-closeup.jpeg);}
+.shamir-man-redlenses-bg {background-image: url(../../images/images-id/shamir-man-red-lenses.jpg);}
+.shamir-couple-sun-bg {background-image: url(../../images/images-id/shamir-couple.jpg);}
 
 .shamir-big-autograph-bg, .shamir-necessidadesvisuais-bg {
-    background-image: url(/images/images-id/sha-autograph-sm.jpg);
+    background-image: url(../../images/images-id/sha-autograph-sm.jpg);
     min-height: 300px;
     background-position: center;
     background-size: cover;
@@ -635,49 +629,33 @@ december, 17, 2018
 }
 .shamir-necessidadesvisuais-bg{
     background-color:#f7f7f7;
-    background-image: url(/images/images-id/sha-necessidadesvisuais-sm.jpg);
+    background-image: url(../../images/images-id/sha-necessidadesvisuais-sm.jpg);
 }
 
-.shamir-seguro-autograph-bg {
-    background-image: url(/images/images-id/sha-autograph-ricardo-sm.jpg);
-    background-color: #020202;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #fff;
-    background-size: auto 100%;
-    padding: 100px 10px;
-}
 
-.shamir-seguro-autograph-bg p,
-.shamir-seguro-autograph-bg h1,
-.shamir-seguro-autograph-bg h2 {
-    color: #fff;
-}
 
 @media only screen and (min-width: 960px) {
-    .shamir-seguro-autograph-bg { background-image: url(/images/images-id/sha-autograph-ricardo.jpg);}
-
     .shamir-big-autograph-bg {
         height: 500px;
-        background-image: url(/images/images-id/sha-autograph-big.jpg);
+        background-image: url(../../images/images-id/sha-autograph-big.jpg);
     }
-    .shamir-necessidadesvisuais-bg{ background-image: url(/images/images-id/sha-necessidadesvisuais.jpg);}
+    .shamir-necessidadesvisuais-bg{ background-image: url(../../images/images-id/sha-necessidadesvisuais.jpg);}
 }
 
 .shamir-miopia-bg, .shamir-hiper-bg, .shamir-astigmatismo-bg, .shamir-presbiopia-bg {
     height: 350px;
     background-position: left;
     background-size: auto 100%;
-    background-image: url(/images/images-id/sha-miopia-visao.jpeg);
+    background-image: url(../../images/images-id/sha-miopia-visao.jpeg);
     background-repeat: no-repeat;
     background-color: #ebebeb;
 }
 
-.shamir-hiper-bg {background-image: url(/images/images-id/sha-hiper-visao.jpeg);}
+.shamir-hiper-bg {background-image: url(../../images/images-id/sha-hiper-visao.jpeg);}
 
-.shamir-astigmatismo-bg {background-image: url(/images/images-id/sha-astigmatismo-visao.jpeg);}
+.shamir-astigmatismo-bg {background-image: url(../../images/images-id/sha-astigmatismo-visao.jpeg);}
 
-.shamir-presbiopia-bg {background-image: url(/images/images-id/sha-presbiopia-visao.jpeg);}
+.shamir-presbiopia-bg {background-image: url(../../images/images-id/sha-presbiopia-visao.jpeg);}
 
 .shamir-miopia-bg:before,
 .shamir-hiper-bg:before,
@@ -708,7 +686,7 @@ december, 17, 2018
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-image: url(/images/images-id/lifestyle-desporto.jpeg);
+    background-image: url(../../images/images-id/lifestyle-desporto.jpeg);
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -728,22 +706,22 @@ december, 17, 2018
 .content a.lifestyle-boxes:hover{
     color:#fff;
 }
-.lifestyle-desporto-bg {background-image: url(/images/images-id/sha-run.jpg)}
-.lifestyle-estrada-bg {background-image: url(/images/images-id/lifestyle-estrada.jpeg);}
-.lifestyle-digital-bg {background-image: url(/images/images-id/girl-smartphone-computer.jpg);}
-.lifestyle-progressivas-bg {background-image: url(/images/images-id/lifestyle-progressivas.jpeg);}
-.lifestyle-leitura-bg {background-image: url(/images/images-id/lifestyle-leitura.jpeg);}
-.lifestyle-uv-bg {background-image: url(/images/images-id/lifestyle-uv.jpeg);}
-.lifestyle-cansaco-bg { background-image: url(/images/images-id/lifestyle-cansaco.jpg);}
-.lifestyle-luzazul-bg { background-image: url(/images/images-id/lifestyle-digital.jpeg);}
-.lifestyle-crianca-bg { background-image: url(/images/images-id/lifestyle-criancas.jpeg);}
+.lifestyle-desporto-bg {background-image: url(../../images/images-id/sha-run.jpg)}
+.lifestyle-estrada-bg {background-image: url(../../images/images-id/lifestyle-estrada.jpeg);}
+.lifestyle-digital-bg {background-image: url(../../images/images-id/girl-smartphone-computer.jpg);}
+.lifestyle-progressivas-bg {background-image: url(../../images/images-id/lifestyle-progressivas.jpeg);}
+.lifestyle-leitura-bg {background-image: url(../../images/images-id/lifestyle-leitura.jpeg);}
+.lifestyle-uv-bg {background-image: url(../../images/images-id/lifestyle-uv.jpeg);}
+.lifestyle-cansaco-bg { background-image: url(../../images/images-id/lifestyle-cansaco.jpg);}
+.lifestyle-luzazul-bg { background-image: url(../../images/images-id/lifestyle-digital.jpeg);}
+.lifestyle-crianca-bg { background-image: url(../../images/images-id/lifestyle-criancas.jpeg);}
 .lifestyle-bg {
-    background-image: url(/images/images-id/header-lifestyle-bg.jpg);
+    background-image: url(../../images/images-id/header-lifestyle-bg.jpg);
     background-repeat: no-repeat;
 }
 
 .lifestyle-e-digital-bg {
-    background-image: url(/images/images-id/header-lifestyle-digital-bg.jpg);
+    background-image: url(../../images/images-id/header-lifestyle-digital-bg.jpg);
 }
 .lifestyle-boxes:before{
     content: " ";
@@ -799,12 +777,12 @@ december, 17, 2018
     .shamir-miopia-bg, .shamir-hiper-bg, .shamir-astigmatismo-bg, .shamir-presbiopia-bg {
         background-position: center;
         background-size: cover;
-        background-image: url(/images/images-id/sha-miopia-visao-xs.jpeg);
+        background-image: url(../../images/images-id/sha-miopia-visao-xs.jpeg);
         left: 0px;
     }
-    .shamir-hiper-bg { background-image: url(/images/images-id/sha-hiper-visao-xs.jpeg); }
-    .shamir-astigmatismo-bg { background-image: url(/images/images-id/sha-astigmatismo-visao-xs.jpeg);}
-    .shamir-presbiopia-bg {background-image: url(/images/images-id/sha-presbiopia-visao-xs.jpeg);}
+    .shamir-hiper-bg { background-image: url(../../images/images-id/sha-hiper-visao-xs.jpeg); }
+    .shamir-astigmatismo-bg { background-image: url(../../images/images-id/sha-astigmatismo-visao-xs.jpeg);}
+    .shamir-presbiopia-bg {background-image: url(../../images/images-id/sha-presbiopia-visao-xs.jpeg);}
 
     .shamir-miopia-bg:before,
     .shamir-hiper-bg:before,
@@ -901,14 +879,6 @@ a.button-seguro:hover {
     color: #fff;
 }
 
-.banner-seguro .button-seguro,
-.banner-seguro a.button-seguro {
-    text-align: left;
-    position: absolute;
-    right: 30px;
-    top: -98px;
-}
-
 .button-seguro,a.button-seguro {
     display: flex;
     width: 250px;
@@ -953,9 +923,7 @@ a.button-seguro:hover {
 
 .lists ul {margin-left: 17px;}
 
-.lists li {list-style-type: none;line-height: 22px;}
-
-.lists li:before { content: "- ";}
+.lists li {line-height: 22px;}
 
 .tec-icons {
     display: block;
