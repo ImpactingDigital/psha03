@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="template.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" media="all">
+    <title>Formulário Shamir Autograph Intelligence™</title>
+</head>
+    
+    <body>
+<div id="form-shamir" class="shamir-form" style="max-width:500px; margin:10px auto">
+    <form data-smk-form action="https://shamir.smark.io/api.php/directlead/05a5d761b90cd7f1c7e554b9510f115e3148660c" method="post">
+        <input type="hidden" name="redirect_ok" value="https://www.shamir.pt/images/images-id/lp-autograph-intelligence/form/obrigado.html">
+        <input type="hidden" name="redirect_error" value="https://www.shamir.pt/images/images-id/lp-autograph-intelligence/form/erro.html">
+        <input type="hidden" name="flag[smk_create_new]" value="0">
+        <input type="hidden" name="flag[smk_update_different_campaign]" value="1">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for=nome>Nome*</label>
+                    <input id="nome" placeholder="" type="text" name="lead[first_name]" required>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for=apelido>Apelido</label>
+                    <input id="apelido" placeholder="" type="text" name="lead[last_name]">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for=email>Email*</label>
+            <input id="email" placeholder="seuemail@exemplo.com" type="email" name="lead[email]" required>
+        </div>
+        <div class="form-group">
+            <label for=telemovel>Telemóvel</label>
+            <input id="telemovel" placeholder="Telemóvel" type="tel" name="lead[phone]">
+        </div>
+        <div class="form-group">
+            <label for=codigopostal>Código Postal</label>
+            <input id=codigopostal placeholder="0000-000" type="text" inputmode="numeric" name="lead[zip_code]">
+        </div>
+        <span>*campo obrigatório</span>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" name="opt" required>
+                Autorizo o tratamento dos meus dados pessoais pela SHAMIR OPTICAL, LDA. e empresas parceiras. <a href="https://shamirpt.goomla.co.il/index.php?option=com_k2&view=item&layout=item&id=172" target="_blank">Consulte os nossos Termos e Condições.</a>
+            </label>
+        </div>
+        <div class="text-center">
+            <button class="button pink" type="submit" value="Go">Enviar</button>
+        </div>
+    </form>
+</div>
+
+
+<style>
+    *{
+        font-family: 'Titillium Web', sans-serif;
+        box-sizing:border-box;
+    }
+    p {
+        font-size: 17px;
+        line-height: 1.5em;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 1.2em;
+        margin-bottom: 20px
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 1.2em;
+        margin-bottom: 20px
+    }
+
+    .text-center {
+        text-align: center
+    }
+    .col-xs-6{
+        width:50%;
+        float:left}
+
+    /*   FORM  */
+    .shamir-form .form-group {
+        padding: 5px;
+    }
+    .shamir-form input[type="text"],
+    .shamir-form input[type="email"],
+    .shamir-form input[type="tel"],
+    .shamir-form input[type="number"] {
+        border: 0;
+        background-color: #f1f2f3;
+        padding: 10px 20px;
+        height: 50px;
+        width: 100%;
+        border: 1px solid #f1f2f3;
+        border-radius: 25px;
+        font-size:17px;
+        margin-bottom:10px
+    }
+
+    .shamir-form input[type="text"]:focus,
+    .shamir-form input[type="email"]:focus,
+    .shamir-form input[type="tel"]:focus,
+    .shamir-form input[type="number"]:focus {
+        border: 1px solid #A50045;
+        background-color: #fff;
+        outline: none;
+    }
+
+    .shamir-form label {
+        padding-left: 10px;
+        color: #555;
+    }
+
+    /*   BUTTONS   */
+    .button {
+        display: inline-block;
+        text-align: center;
+        border-radius: 100px;
+        color: #fff;
+        padding: 18px 50px;
+        background: #F51A00;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 20px auto;
+        border: 0;
+        transition: box-shadow .5s ease;
+        box-shadow: none;
+        cursor:pointer;
+    }
+    .button:focus{
+        outline: none;
+        border:1px solid #FFF;
+    }
+    .button.grad {
+        background: linear-gradient(90deg, #A50045 0%, #F51A00 50%, #FF8B00 100%);
+    }
+
+    .button.grad:hover {
+        box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+    }
+
+    .button.pink {
+        background: #A50045;
+    }
+
+    .button.pink:hover {
+        background-color: #c9105d;
+        box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+    }
+</style>
+<script type="text/javascript" async src="//p.smrk.io/sm.js?b=129942261454fbc0dbab5652cb196327f63a4efe"></script>
+</body>
+</html>
