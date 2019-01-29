@@ -66,9 +66,9 @@
                 </div>
                 <button class="button-red tablinks col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" style="float:none" onclick="openTab(event, 'dados')">Que dados são necessários?</button>
                 <div id="dados" class="col-md-offset-3 col-md-6 filter-tabcontent  med-pad">
-                    <h3>Data de fabrico e número de lentes</h3>
+                    <h3>Data e Código ID</h3>
                     <p>&nbsp;</p>
-                    <p>Para ativar este seguro é necessário fornecer a data de fabrico e o número de pedido das lentes. Estas informações estão presentes no cartão de certificação das lentes.</p>
+                    <p>Para ativar este seguro é necessário fornecer a Data e Código ID das lentes. Estas informações estão presentes no cartão de certificação das lentes.</p>
                 </div>
                 <button class="button-red tablinks col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" style="float:none" onclick="openTab(event, 'protecao')">O que cobre o seguro?</button>
                 <div id="protecao" class="col-md-offset-3 col-md-6 filter-tabcontent med-pad">
@@ -86,7 +86,9 @@
                 <div id="comoacionar" class="col-md-offset-3 col-md-6 filter-tabcontent  med-pad">
                     <h3>Na sua óptica de confiaça</h3>
                     <p>&nbsp;</p>
-                    <p>Para acionar o seguro deverá dirigir-se à sua óptica de confiança, juntamente com as suas lentes partidas (no caso de quebra) ou com o auto policial (no caso de furto ou roubo). Atenção que, no caso de furto ou roubo, o acionamento deverá ser feito durante os sete dias corridos a partir da data da ocorrência. O formulário de acionamento do seguro deverá ser preenchido pelo óptico e está <a href="https://servicos.shamir.pt/joomla/index.php?linkid=20&step=5&" class="red-font">disponível aqui.</a></p>
+                    <p>Para acionar o seguro deverá dirigir-se à sua óptica de confiança, juntamente com as suas lentes partidas (no caso de quebra) ou com o auto policial (no caso de furto ou roubo). Atenção que, no caso de furto ou roubo, o acionamento deverá ser feito durante os sete dias corridos a partir da data da ocorrência. 
+                        <!-- O formulário de acionamento do seguro deverá ser preenchido pelo óptico e está <a href="https://servicos.shamir.pt/joomla/index.php?linkid=20&step=5&" class="red-font">disponível aqui.</a>-->
+                    </p>
                 </div>
 
                 <div class="col-md-offset-3 col-md-6 med-pad">
@@ -165,12 +167,13 @@
     @media (max-width: 1899px) {
         .neto_container {
             width: 100%;
+            max-width: 100%;
         }
     }
-
     @media (max-width: 1249px) {
         .neto_container {
             width: 100%;
+        max-width: 100%;
         }
     }
 
@@ -191,21 +194,25 @@
         border-radius: 2px;
         border: solid 2px #fff;
         box-shadow: 0 4px 20px rgba(0, 0, 0, .5);
-        height: 1750px;
+        height: 1500px;
+        overflow: auto;
+          -webkit-overflow-scrolling: touch;
     }
 
     .form-seguro.verificar {
-        height: 400px;
+        height: 300px;
     }
 
     @media screen and (min-width:768px) {
         .form-seguro {
-            height: 1050px;
+            height: 750px;
             padding: 40px;
         }
     }
 
     /*! CSS Used from: images/images-id/portugal-custom.css */
+    p{font-size:17px}
+
     .headers-image {
         height: 500px;
         background-color: #fff;
@@ -311,8 +318,8 @@
     }
 
     .shamir-seguro-autograph-bg {
-        background-image: url(images/images-id/header-seguro-autograph-sm.jpg);
-        background-color: #020202;
+        background-image: url(images/images-id/header-seguro-autograph-sm-v3.jpg);
+        background-color: #c1cdd7;
         background-repeat: no-repeat;
         background-position: center;
         color: #fff;
@@ -323,7 +330,7 @@
 
     @media only screen and (min-width: 960px) {
         .shamir-seguro-autograph-bg {
-            background-image: url(images/images-id/header-seguro-autograph.jpg);
+            background-image: url(images/images-id/header-seguro-autograph-v3.jpg);
         }
     }
 

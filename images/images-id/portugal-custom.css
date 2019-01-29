@@ -5,6 +5,30 @@ Autor: Impacting Digital
 december, 17, 2018
 ------------------------------------------------------ */
 
+/* ---- AJUSTES DE CONTAINER ---- */
+    @media (max-width: 1899px) {
+        .neto_container {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 1249px) {
+        .neto_container {
+            width: 100%;
+            max-width:1600px;
+        }
+    }
+
+    @media screen and (max-width: 739px) {
+        .k2_general_item .neto_container {
+            width: 100%;
+        }
+
+        .in_container {
+            width: 100%
+        }
+    }
+
 /* ---- HEADERS-START ---- */
 
 .headers-image {
@@ -966,6 +990,7 @@ a.button-seguro:hover {
 /* ---- ELEMENTS-END ---- */
 
 /* ---- TEXTS-BEGIN ---- */
+p{font-size:17px}
 .text-orange,.text-orange sup {color: #c97722;}
 .headers_title .text-darkred,.headers_title_darkred,.headers_title_darkred sup {color: #2e0813;}
 .text-black,.text-black h1,.text-black h2,.text-black h3,.text-black h4,.text-black p{color:#000}

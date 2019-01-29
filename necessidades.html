@@ -10,13 +10,14 @@
 </head>
 
 <section>
-<link rel="stylesheet" property="stylesheet" href="images/images-id/portugal-custom.css">
 
     <header class="fix-mobile">
-        <div class="container med-pad" style="text-align: center;">
+        <div class="container med-pad" style="text-align: center; position:relative">
+                                <img src="images/images-id/selo-disponivel-em-opticas.png" alt="disponível apenas em opticas" width=90px style="position:absolute; top:5px; right:5px;"/>
+
             <div class="row">
                 <div class="col-md-offset-3 col-md-6">
-                    <h2 class="red-font featured-title"><b>De que forma utiliza a sua visão no dia-a-dia?</b></h2>
+                    <h2 class="red-font featured-title" style="padding:20px 60px; max-width:430px"><b>De que forma utiliza a sua visão no dia-a-dia?</b></h2>
                     <p>&nbsp;</p>
                     <p>As tarefas que realiza diariamente são influenciadas, em grande parte, pelo estado da sua visão. Identifique a tarefa qua mais se adequa à sua rotina diária e descubra quais as lentes e proteções ideias para o seu estilo de vida. </p>
                 </div>
@@ -332,9 +333,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-3 col-md-6">
-                            <p>As lentes oftálmicas, destinadas a compensar e prevenir problemas de visão, são consideradas dispositivos médicos, pelo que deve consultar sempre o seu oftalmologista ou optometrista.</p>
                             <p>&nbsp;</p>
-                            <h4><b>Consulte mais informações sobre os nossos produtos.</b></h4>
+                            <p>As lentes oftálmicas, destinadas a compensar e prevenir problemas de visão, são consideradas dispositivos médicos classe I, pelo que deve consultar sempre o seu especialista da visão.</p>
+                            <p>&nbsp;</p>
+                            <h4><b>Consulte mais informações sobre os nossos produtos na sua óptica de confiança.</b></h4>
                             <p class="red-font"><b></b></p>
                             <a class="button-red" href="index.php?option=com_k2&view=item&layout=item&id=199">TUDO SOBRE AS LENTES</a>
                         </div>
@@ -345,7 +347,67 @@
     </div>
 </section>
 
+<style>
+    @media (max-width: 1899px) {
+        .neto_container {
+            width: 100%;
+            max-width:100%
+        }
+    }
 
+    @media (max-width: 1249px) {
+        .neto_container {
+            width: 100%;
+            max-width:1600px;
+        }
+    }
+
+    @media screen and (max-width: 739px) {
+        .k2_general_item .neto_container {
+            width: 100%;
+        }
+
+        .in_container {
+            width: 100%
+        }
+    }
+/*! CSS Used from: /images/images-id/portugal-custom.css */
+.grey_grad_bg{background-color:#f1f2f3;background-image:linear-gradient(45deg, #f1f2f3, #e1e2e3);}
+.featured-title{font-size:40px;line-height:45px;display:inline-block;margin:10px;vertical-align:bottom;}
+@media only screen and (max-width: 959px){
+.featured-title{font-size:30px;line-height:30px;}
+}
+.sections-boxes{min-height:350px;display:flex;justify-content:center;align-items:center;}
+@media only screen and (max-width: 959px){
+.sections-boxes{text-align:center;}
+}
+.lista-necessidades{display:flex;flex-wrap:wrap;justify-content:center;}
+.lifestyle-boxes,a.lifestyle-boxes{width:100%;max-width:280px;min-height:100px;margin:5px;padding:5px;border-radius:50px;background-color:#f1f2f3;background-position:center;background-size:100% auto;background-repeat:no-repeat;background-image:url(/images/images-id/lifestyle-desporto.jpeg);display:flex;justify-content:center;align-items:flex-end;color:#fff;font-size:1.6em;font-weight:bold;text-shadow:0 4px 20px rgba(0,0,0,.8);text-align:center;text-decoration:none;position:relative;transition:700ms ease;}
+.lifestyle-boxes:before,.content a.lifestyle-boxes:before{content:" ";position:absolute;background-color:rgba(0, 0, 0, 0);z-index:0;cursor:pointer;transition:700ms ease;border:2px solid transparent;width:0;}
+.lifestyle-boxes:hover, .content a.lifestyle-boxes:hover{background-size:150%;color:#fff;text-shadow:0 2px 5px rgba(0,0,0,.95); text-decoration: none}
+.lifestyle-boxes:hover:before, .content a.lifestyle-boxes:hover:before{border:2px solid red;width:60px;}
+.med-pad{padding:50px 0 50px 0;}
+.min-pad{padding:15px 15px 15px 15px;}
+@media only screen and (max-width: 959px){
+.min-pad{padding:11px 15px 11px 15px;}
+}
+.button-red,a.button-red{display:inline-block;text-align:center;min-width:180px;margin:10px;padding:8px 18px 8px 18px;font-size:17px;font-weight:600;cursor:pointer;text-decoration:none;transition:700ms ease;}
+a.button-red:hover{text-decoration:none;}
+.button-red,a.button-red{color:#d20a11;background:transparent;border:1px solid #d20a11;}
+.button-red:hover,a.button-red:hover{color:#fff!important;background:#d20a11;}
+.button-red:focus,a.button-red:focus{color:#fff!important;background:#9d0005;outline:2px solid #d20a11;}
+@media only screen and (max-width: 959px){
+.button-red{padding:7px 12px 7px;font-size:13px;font-weight:500;min-width:150px;}
+}
+p{font-size:17px;}
+.red-font{color:#9F1238;}
+.filter-tabcontent{display:none;}
+.products-list{display:flex;flex-wrap:wrap;justify-content:center;}
+.item-product{width:48%;max-width:300px;min-width:100px;margin:2px;border:2px solid #fff;transition:border .2s ease;background-color:#d20a11;}
+.item-product:hover{border:2px solid #d20a11;}
+.item-product a.product-image{width:100%;height:140px;display:block;background-color:#f1f2f3;background-size:cover;background-position:center;}
+.item-product a.product-description{text-decoration:none;font-size:1.2em;color:#fff;background-color:#d20a11;text-align:center;display:block;padding:10px;}    
+</style>
 
 
 
