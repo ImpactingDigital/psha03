@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="template.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" media="all">
+    <title>Newsletter</title>
+</head>
+    
+    <body>
+<div id="form-shamir" class="shamir-form" style="padding: 20px 0;">
+        <div class="newsletter-title">
+            <h4>Subscreva a nossa Newsletter</h4>
+        </div>
+    <form data-smk-form action="https://shamir.smark.io/api.php/directlead/91f00fa88bf1879b60df90886a68f5a8bde37a08" method="post" class="form-inline">
+        <input type="hidden" name="redirect_ok" value="https://www.shamir.pt/images/images-id/lp-autograph-intelligence/form/obrigado.html">
+        <input type="hidden" name="redirect_error" value="https://www.shamir.pt/images/images-id/lp-autograph-intelligence/form/erro.html">
+        <input type="hidden" name="flag[smk_create_new]" value="0">
+        <input type="hidden" name="flag[smk_update_different_campaign]" value="1">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for=nome>Nome*</label>
+                    <input id="nome" placeholder="" type="text" name="lead[first_name]" required>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for=nome>Email*</label>
+                    <input id="email" placeholder="seuemail@exemplo.com" type="email" name="lead[email]" required>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <button class="button pink" type="submit" value="Go">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+<style>
+    *{
+        font-family: 'Titillium Web', sans-serif;
+        box-sizing:border-box;
+    }
+    p {
+        font-size: 17px;
+        line-height: 1.5em;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 1.2em;
+        margin-bottom: 20px
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 1.2em;
+        margin-bottom: 20px
+    }
+    h4{
+        margin-bottom: 10px;
+    }
+    .newsletter-title{
+        text-align:center;
+    }
+    .padding-top-10{
+        padding-top: 10px;
+    }
+    .form-inline { 
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;    }
+
+    .text-center {
+        text-align: center
+    }
+    .col-xs-6{
+        float:left
+    }
+
+    /*   FORM  */
+    .shamir-form .form-group {
+        padding: 5px;
+    }
+    .shamir-form input[type="text"],
+    .shamir-form input[type="email"],
+    .shamir-form input[type="tel"],
+    .shamir-form input[type="number"] {
+        border: 0;
+        background-color: #f1f2f3;
+        padding: 10px 20px;
+        height: 50px;
+        width: 100%;
+        border: 1px solid #f1f2f3;
+        border-radius: 25px;
+        font-size:17px;
+        margin-bottom:10px
+    }
+
+    .shamir-form input[type="text"]:focus,
+    .shamir-form input[type="email"]:focus,
+    .shamir-form input[type="tel"]:focus,
+    .shamir-form input[type="number"]:focus {
+        border: 1px solid #A50045;
+        background-color: #fff;
+        outline: none;
+    }
+
+    .shamir-form label {
+        padding-left: 10px;
+        color: #555;
+    }
+
+    /*   BUTTONS   */
+    .button {
+        display: inline-block;
+        text-align: center;
+        border-radius: 100px;
+        color: #fff;
+        padding: 10px 50px;
+        background: #F51A00;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 20px auto;
+        border: 0;
+        transition: box-shadow .5s ease;
+        box-shadow: none;
+        cursor:pointer;
+        height: 50px;
+    }
+    .button:focus{
+        outline: none;
+        border:1px solid #FFF;
+    }
+    .button.grad {
+        background: linear-gradient(90deg, #A50045 0%, #F51A00 50%, #FF8B00 100%);
+    }
+
+    .button.grad:hover {
+        box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+    }
+
+    .button.pink {
+        background: #A50045;
+    }
+
+    .button.pink:hover {
+        background-color: #c9105d;
+        box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+    }
+    @media (max-width: 800px) {
+      .form-inline input {
+        margin: 10px 0;
+      }
+
+      .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    .col-xs-6{
+        float:none !important;
+    }
+    }
+</style>
+<script type="text/javascript" async src="//p.smrk.io/sm.js?b=129942261454fbc0dbab5652cb196327f63a4efe"></script>
+</body>
+</html>
