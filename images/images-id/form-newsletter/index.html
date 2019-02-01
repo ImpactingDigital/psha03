@@ -11,7 +11,7 @@
     <body>
 <div id="form-shamir" class="shamir-form" style="padding: 20px 0;">
         <div class="newsletter-title">
-            <h4>Subscreva a nossa Newsletter</h4>
+            <h3>Subscreva a nossa Newsletter</h3>
         </div>
     <form data-smk-form action="https://shamir.smark.io/api.php/directlead/91f00fa88bf1879b60df90886a68f5a8bde37a08" method="post" class="form-inline">
         <input type="hidden" name="redirect_ok" value="https://www.shamir.pt/images/images-id/form-newsletter/obrigado.html">
@@ -46,6 +46,7 @@
     *{
         font-family: 'Titillium Web', sans-serif;
         box-sizing:border-box;
+        margin:0;
     }
     p {
         font-size: 17px;
@@ -97,8 +98,20 @@
     }
 
     /*   FORM  */
+    .shamir-form{
+        color:#fff;
+        background: #A50045;
+        padding:10px;
+        text-align: center;
+    }
+    @media (min-width: 800px) {
+        .shamir-form{
+            text-align: left;
+        }
+    }
     .shamir-form .form-group {
         padding: 5px;
+        display:flex;
     }
     .shamir-form input[type="text"],
     .shamir-form input[type="email"],
@@ -126,7 +139,9 @@
 
     .shamir-form label {
         padding-left: 10px;
-        color: #555;
+        height: 40px;
+        margin-top: 12px;
+        margin-right: 10px;
     }
 
     /*   BUTTONS   */
@@ -139,7 +154,7 @@
         background: #F51A00;
         text-decoration: none;
         font-size: 18px;
-        margin: 20px auto;
+        margin: 0 auto;
         border: 0;
         transition: box-shadow .5s ease;
         box-shadow: none;
@@ -159,18 +174,14 @@
     }
 
     .button.pink {
-        background: #A50045;
+        background: #ff2d3e;
     }
-
-    .button.pink:hover {
+    .button.pink:hover, .button-white:hover {
         background-color: #c9105d;
         box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
     }
+    
     @media (max-width: 800px) {
-      .form-inline input {
-        margin: 10px 0;
-      }
-
       .form-inline {
         flex-direction: column;
         align-items: stretch;
