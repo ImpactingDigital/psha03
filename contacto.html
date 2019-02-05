@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="template.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" media="all">
+    <title>Shamir - Contactos</title>
+</head>
+
+<div class="container"><h2 class="page-title grad-sep">Fale connosco</h2></div>
+<div class="contact_us_top">
+    <div class="container">
+            <div class="contact-us-form grad-top-line">
+                    <form data-smk-form action="https://shamir.smark.io/api.php/directlead/50d3630a82350badf80d46bbc8e4ad5c0f7741c7" method="post"
+                        class="contact-form shamir-form">
+                        <input type="hidden" name="redirect_ok" value="https://www.shamir.pt/contactos&utm=obrigado">
+                        <input type="hidden" name="redirect_error" value="https://www.shamir.pt/erro">
+                        <input type="hidden" name="flag[smk_create_new]" value="0">
+                        <input type="hidden" name="flag[smk_update_different_campaign]" value="1">
+                        <input type="hidden" name="extra[blacklist]" value="yes">
+
+                        <h3>Envie a sua mensagem</h3>
+                        <div class="form-group">
+                            <label for=nome>Nome*</label>
+                            <input id="nome" placeholder="" type="text" name="lead[first_name]" required>
+                        </div>
+                        <div class="form-group">
+                            <label for=nome>Telefone*</label>
+                            <input id="phone" placeholder="" type="tel" name="lead[phone]" required>
+                        </div>
+                        <div class="form-group">
+                            <label for=email>Email*</label>
+                            <input id="email" placeholder="seuemail@exemplo.com" type="email" name="lead[email]" required>
+                        </div>
+                        <div class="form-group">
+                            <label for=assunto>Assunto</label>
+                            <select name="extra[contact_subject]">
+                                <option disabled selected value> -- Selecione um assunto -- </option>
+                                <option value="produtos">Produtos</option>
+                                <option value="seguro_autograph">Seguro Autograph</option>
+                                <option value="servico_inotime">Serviço Inotime</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-message">
+                                <label for=mensagem>Mensagem</label>
+                                <textarea id=mensagem placeholder="" name="extra[contact_message]" rows="6"></textarea>
+                        </div>
+                        <div class="opt-in">
+                                <label><input type="checkbox" name="extra[termos_aceitos]" value="yes" required> Li e aceito os <a href="https://shamir.pt/terms">termos e condições*.</a></label>
+                        </div>
+                        <div class="opt-in">
+                            <label><input type="checkbox" name="extra[blacklist]" value="no"> Aceito que os meus dados sejam trados para fins de marketing, ficando com a opção de anular a inscrição a qualquer momento, de acordo com os <a href="https://shamir.pt/terms"> termos
+                            e condições</a>.</label>
+                        </div>
+                        <div class="form-group">
+                            <button class="button pink" type="submit" value="Go">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="where-to-find-us">
+                        <h3 class="grad-sep">Shamir Optical, Lda</h3>
+                        <div>
+                                <h4>Laboratório - Sede</h4>
+                                <p><b>Tel</b> (351) 808287510 | <b>e-mail geral</b> <a href="mailto:info@shamir.pt">info@shamir.pt</a><br>
+                                    <b>Morada</b> Rua do Cego, nº 100, 4485-814 Vilar, Vila do Conde</p>  
+                        </div>
+                        <hr>
+                        <div>
+                                <h4>Laboratório Inotime Lisboa</h4>
+                                <p><b>Morada</b> Av. D. João II, 30 E/F, Edifício Meridiano Parque Expo, 1990-092 Lisboa</p>  
+                                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.1367065285176!2d-8.691137664124012!3d41.17518539210794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246fa4cf4daec7%3A0x413c6e5f88457471!2sShamir+Optical+-+Laborat%C3%B3rio+Inotime!5e0!3m2!1sen!2spt!4v1549384302396" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <hr>
+                        <div>
+                                <h4>Laboratório Inotime Porto</h4>
+                                <p><b>Morada</b> Rua do Cego, nº 100, 4485-814 Vilar, Vila do Conde - Portugal</p>  
+                                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.9473324245314!2d-9.100171684653542!3d38.764911979591254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193186e66d594d%3A0xf5d4b129b8657eef!2sShamir+Optical+Portugal+(Lisboa)!5e0!3m2!1sen!2spt!4v1549384327949" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                             
+                </div>
+    </div>
+    
+</div>
+
+
+    <style>
+        @media (max-width: 1899px) {
+            .neto_container {
+                width: 100%;
+                max-width: 100%
+            }
+        }
+
+        @media (max-width: 1249px) {
+            .neto_container {
+                width: 100%;
+                max-width: 1600px;
+            }
+        }
+
+        @media screen and (max-width: 739px) {
+            .k2_general_item .neto_container {
+                width: 100%;
+            }
+
+            .in_container {
+                width: 100%
+            }
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        p {
+            /* font-size: 17px; */
+            line-height: 1.5em;
+            padding-top: 10px;
+            padding-bottom: 10px
+        }
+
+        h1 {
+            font-size: 48px;
+            line-height: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            line-height: 1.2em;
+            margin-bottom: 20px
+        }
+
+        h3 {
+            font-size: 26px;
+            line-height: 1.2em;
+            margin-bottom: 20px
+        }
+
+        sup,
+        .content .title sup,
+        .content sup {
+            font-family: sans-serif !important;
+            top: -8px !important;
+            font-size: .4em !important;
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .text-white,
+        .content h2.text-white {
+            color: #fff
+        }
+        .page-title{
+            margin-top:32px;
+        }
+
+        .grad-sep:after {
+            display: block;
+            content: " ";
+            width: 60px;
+            height: 4px;
+            margin: 20px 0;
+            background-color: #F51A00;
+            background: linear-gradient(90deg, #A50045 0%, #F51A00 51.12%, #FF8B00 100%);
+        }
+
+        .grad-sep.center:after {
+            margin: 20px auto;
+        }
+        .grad-top-line {
+            position: relative;
+        }
+
+        .grad-top-line:before {
+            display: block;
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: #F51A00;
+            background: linear-gradient(90deg, #A50045 0%, #F51A00 51.12%, #FF8B00 100%);
+        }
+        .grad-sep:after {
+            display: block;
+            content: " ";
+            width: 60px;
+            height: 4px;
+            margin: 20px 0;
+            background-color: #F51A00;
+            background: linear-gradient(90deg, #A50045 0%, #F51A00 51.12%, #FF8B00 100%);
+        }
+        .grey-bg {
+            background-color: #f1f2f3;
+        }
+
+        .contact_us_top {
+            background-color: #555a64;
+            padding-bottom:15px;
+        }
+        .contact_us_top h2, .contact_us_top h3, .contact_us_top h4, .contact_us_top a {
+            color:#f1f2f3;
+        }
+        .contact_us_top .container{
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact_us_top .contact-us-form{
+            background-color:#fff;
+            padding:30px 15px 0px;
+            margin:35px auto 10px;
+            max-width: 480px;
+            min-width: 280px;
+            width:100%;
+            color:#444;
+        }
+        .contact_us_top .contact-us-form a{
+            color:#A50045
+        }
+        .contact_us_top .contact-us-form h3{
+            color:#444;
+        }
+        .contact_us_top .where-to-find-us{
+            padding:15px;
+            margin: 5px auto;
+            max-width: 620px;
+            min-width: 280px;
+            width:100%;
+            vertical-align: top;
+            color:#fff;
+        }
+        @media screen and (min-width:800px){
+            .contact_us_top .where-to-find-us{
+                margin-left:5%;
+            }
+        }
+        .contact-map{
+            width:100%;
+            height:200px;
+        }
+        /*   FORM  */
+        .shamir-form .form-group {
+            padding: 5px;
+            display:flex;
+        }
+        .shamir-form .form-group label{
+            width:80px;
+        }
+        .shamir-form label {
+            height: 30px;
+            margin-top: 12px;
+            margin-right: 10px;
+            color: #555;
+        }
+        .shamir-form input[type="text"],
+        .shamir-form input[type="email"],
+        .shamir-form input[type="tel"],
+        .shamir-form input[type="number"],
+        .shamir-form textarea,
+        .shamir-form select {
+            border: 0;
+            background-color: #f1f2f3;
+            padding: 10px;
+            height: 40px;
+            width: 100%;
+            border: 1px solid #f1f2f3;
+            border-radius: 20px;
+            box-shadow:0;
+        }
+        .shamir-form textarea{
+            height:auto;
+            border-radius:20px 20px 5px 20px
+        }
+        .shamir-form select{
+            height:50px;
+        }
+        .shamir-form input[type="text"]:focus,
+        .shamir-form input[type="email"]:focus,
+        .shamir-form input[type="tel"]:focus,
+        .shamir-form input[type="number"]:focus,
+        textarea:focus {
+            border: 1px solid #A50045;
+            background-color: #fff;
+            outline: none;
+        }
+
+        .shamir-form input:focus,
+        button:focus,
+        a:focus,
+        .button:focus {
+            outline: 1px dashed #f1f2f3;
+        }
+
+        /*   BUTTONS   */
+        .button,
+        a.button,
+        .content .button {
+            display: inline-block;
+            text-align: center;
+            border-radius: 100px;
+            color: #fff !important;
+            padding: 18px 50px;
+            background: #F51A00;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 20px auto;
+            border: 0 solid transparent;
+            transition: box-shadow .5s ease;
+            box-shadow: none;
+        }
+
+        .content .button>*,
+        .button br {
+            border: 0;
+            padding: 0;
+        }
+
+        .button:hover,
+        a.button:hover {
+            color: #fff !important;
+            text-decoration: none;
+        }
+
+        .button.grad {
+            background: linear-gradient(90deg, #A50045 0%, #F51A00 50%, #FF8B00 100%);
+        }
+
+        .button.grad:hover {
+            box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+        }
+
+        .button.pink {
+            background: #A50045;
+        }
+
+        .button.pink:hover {
+            background-color: #c9105d;
+            box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
+        }
+
+        .med-but {
+            width: 100%;
+            clear: both;
+            text-align: center;
+            margin-bottom: -150px;
+            padding-top: 40px;
+        }
+    </style>
+
+</html>
