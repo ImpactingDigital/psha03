@@ -19,24 +19,19 @@
         <input type="hidden" name="flag[smk_create_new]" value="0">
         <input type="hidden" name="flag[smk_update_different_campaign]" value="1">
         <div class="row">
-            <div class="col-xs-6">
+            <div class="form-fields">
                 <div class="form-group">
                     <label for=nome>Nome*</label>
                     <input id="nome" placeholder="" type="text" name="lead[first_name]" required>
                 </div>
-            </div>
-            <div class="col-xs-6">
                 <div class="form-group">
                     <label for=email>Email*</label>
                     <input id="email" placeholder="seuemail@exemplo.com" type="email" name="lead[email]" required>
                 </div>
+                <div class="opt-in"><input type="checkbox" name="extra[blacklist]" value="no" required> Li e aceito os <a href="terms">termos e condições</a></div>
             </div>
-            <div class="opt-in"><input type="checkbox" name="extra[blacklist]" value="no" required> Li e aceito os <a href="terms">termos e condições</a></div>
-
-            <div class="col-xs-6">
-                <div class="form-group">
+            <div class="form-submit">
                     <button class="button pink" type="submit" value="Go">Enviar</button>
-                </div>
             </div>
         </div>
     </form>
@@ -93,9 +88,6 @@
     .text-center {
         text-align: center
     }
-    .col-xs-6{
-        float:left
-    }
 
     /*   FORM  */
     .shamir-form{
@@ -104,13 +96,33 @@
         padding:10px;
         text-align: center;
     }
+    .shamir-form a{
+        color:rgb(238, 187, 187);
+    }
     @media (min-width: 800px) {
         .shamir-form{
             text-align: left;
         }
     }
+    @media screen and (min-width:768px){
+        .form-fields{
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: center
+        }
+        .opt-in{
+            width:100%;
+            text-align: center;
+        }
+
+    }
+    
+    .form-submit{
+        text-align: center;
+        padding:15px 5px;
+    }
     .shamir-form .form-group {
-        padding: 5px;
+        padding: 0 5px;
         display:flex;
     }
     .shamir-form input[type="text"],
@@ -139,7 +151,7 @@
 
     .shamir-form label {
         padding-left: 10px;
-        height: 40px;
+        height: 30px;
         margin-top: 12px;
         margin-right: 10px;
     }
