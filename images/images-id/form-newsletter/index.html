@@ -9,7 +9,7 @@
 </head>
     
     <body>
-<div id="form-shamir" class="shamir-form" style="padding: 20px 0;">
+<div id="form-shamir" class="shamir-form">
         <div class="newsletter-title">
             <h3>Subscreva a nossa Newsletter</h3>
         </div>
@@ -28,10 +28,10 @@
                     <label for=email>Email*</label>
                     <input id="email" placeholder="seuemail@exemplo.com" type="email" name="lead[email]" required>
                 </div>
-                <div class="opt-in"><input type="checkbox" name="extra[blacklist]" value="no" required> Li e aceito os <a href="terms">termos e condições</a></div>
+                <div class="opt-in"><input type="checkbox" name="extra[blacklist]" value="no" required> Li e aceito os <a href="https://www.shamir.pt/terms" target="_blank">termos e condições</a></div>
             </div>
             <div class="form-submit">
-                    <button class="button pink" type="submit" value="Go">Enviar</button>
+                    <button class="button" type="submit" value="Go">Enviar</button>
             </div>
         </div>
     </form>
@@ -92,8 +92,8 @@
     /*   FORM  */
     .shamir-form{
         color:#fff;
-        background: #A50045;
-        padding:10px;
+        background: #ad1318;
+        padding:15px 10px;
         text-align: center;
     }
     .shamir-form a{
@@ -185,11 +185,12 @@
         box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
     }
 
-    .button.pink {
-        background: #ff2d3e;
+    .button {
+        background: #d20a11;
+        border: solid 3px white;
     }
-    .button.pink:hover, .button-white:hover {
-        background-color: #c9105d;
+    .button:hover, .button-white:hover {
+        background-color: #f74a5e;
         box-shadow: 0 4px 20px rgba(109, 0, 46, 0.7);
     }
     

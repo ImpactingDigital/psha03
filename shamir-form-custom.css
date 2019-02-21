@@ -90,13 +90,10 @@ a.k2ReadMoresports:active{
     background-color:#8b0308;
 }
 @media screen and (max-width:480px){
-    /* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-		text-align:left;
-		width:100%;
-    }
-    table{
-		width:calc(100% - 15px);
+    .ArticleitemFullText table tr td:first-child{
+        width:90px
+	}
+	.ArticleitemFullText table tr input{
+		min-width:60px;
 	}
 }
